@@ -1,0 +1,88 @@
+.navbar-brand {
+  background-color: #6441a5;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  border-radius: .25rem;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6441a5 !important;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  color: #6441a5 !important;
+}
+
+body
+{ background-color: #E9E9E9;
+}
+
+.row {
+  margin-right: -5px;
+}
+
+.container {
+  margin: 30px;
+}
+
+#main {
+  background-color: #f8f9fa;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#visual {
+  margin-left: 25px;
+  background-color: #f8f9fa;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p {
+  color: #6c757d;
+}
+
+h2 {
+  padding-top:20px;
+  color: #6441a5;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.navbar-light .navbar-brand:hover{
+   color: #ECE9FD;
+ }
+ .navbar-light .navbar-brand:visited{
+   color: #f8f9fa;
+ }
+ .navbar-light .navbar-brand:link{
+   color: #f8f9fa;
+ }
+
+ @media (max-width: 768px) {
+   .bg-light {
+     background-color: #6441a5!important;
+   }
+   .navbar-light .navbar-toggler {
+     border-color: #FFFFFF;
+   }
+ }
+
+ @media (max-width:402px) {
+   button {
+     align-self: center;
+   }
+ }
